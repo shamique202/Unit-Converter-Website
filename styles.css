@@ -1,0 +1,22 @@
+* {
+    margin: 2px 2px;
+    padding: 0;
+}
+.sidemenu a {
+    display: block;
+    font-size: 16px;
+    text-decoration: none;
+}
+section {
+    margin-left: 25%;
+    padding: 9px;
+}
+body {
+  background-color: rgb(164, 235, 229);
+}
+.sidemenu {
+    position: fixed;
+    width: 20%;
+    height: 80%;
+    float: left;   
+}
