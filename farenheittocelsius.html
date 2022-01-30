@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fahrenheit to Celcius</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="sidemenu">
+        <a href="cupstofluidounces.html">Cups to Fl Oz</a>
+        <a href="index.html">Home</a>
+        <a href="inchtofoot.html">Inch to Foot</a>
+        <a href="cenmeters.html">Centimeters to Meters</a>
+        <a href="farenheittocelsius.html">Fahrenheit to Celsius</a>
+
+    </div>
+    <section>
+        <div class="conversion-formula">
+            <h1>Fahrenheit to Celsius Conversion</h1>
+            <br>
+            <h3>Formula of Fahrenheit To Celsius Conversion</h3>
+            <h5>(32°F − 32) × 5/9 = 0°C</h5>
+            <br>
+        </div>
+        <div class="conversion-history">
+            <h1>Brief History of the Units</h1>
+            <br>
+            <h3>Fahrenheit</h3>
+            <p>In the Fahrenheit scale, water freezes at 32 degrees, and boils at 212 degrees. Boiling and freezing point are therefore 180 degrees apart. Normal body temperature is considered to be 98.6 °F (in real-life it fluctuates around this value). Absolute zero is defined as -459.67°F.
+            </p>
+            <br>
+            <h3>Celsius</h3>
+            <p>The Celsius scale is nowadays set in such a way that Zero degrees C is the temperature at which ice melts (note : not the temperature at which it freezes, which is different!) . At the other end of the scale, 100 degrees Celsius is the boiling point of water.
+            </p>
+        </div>
+    </section>
+    <script>
+       var x = prompt("Insert Fahrenheit amount to convert to Celsius:","0");
+       var fahrenheit = parseInt(x);
+       var c = ((fahrenheit-32)*5)/9;
+       alert("Temperature in Celsius:"+c);
+   </script>
+</body>
+</html>
